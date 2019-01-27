@@ -1,0 +1,22 @@
+.row_ac{
+    background-image: url('IMG/bg_acchi_kocchi.jpg');
+    border: black 10px solid;
+    background-size: cover;
+
+}
+
+div > img{
+    border: black 5px solid;
+    margin-bottom: 5px;
+}
+
+input{
+    border: 5px cyan solid;
+    border-style: groove
+}
+
+.col-xl{
+    margin: 10px;
+    text-align: center;
+    
+}
