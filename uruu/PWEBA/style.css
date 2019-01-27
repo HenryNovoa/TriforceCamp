@@ -1,0 +1,51 @@
+div > p {
+    text-align: center;
+    border: white 5px outset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    background-color: red;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.nav-item{
+    border: 3px black solid;
+}   
+
+.row{
+    border: black 10px solid;
+    background-image: url("IMG/row_bground.jpg");
+    background-size: cover;
+    margin-left: 30%;
+    margin-right: 10%;
+}   
+
+.logo{
+    border: red 3px solid;
+    margin: 10px;
+}
+
+.col-2{
+    text-align: center;
+}
+
+.list_aside{
+    border: 1px red solid;
+    margin-right: 75%;
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 100%;
+}
+
+input{
+    border: 5px cyan solid;
+    border-style: groove
+}
+
+aside > ul > li{
+    margin-right: 100 
+}
