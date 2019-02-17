@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+
+.header {
+  background-color: #46BDD5;
+}
+.header__login {
+  margin: 0px 5%;
+  display: flex;
+  justify-content: flex-end;
+}
+.header__login p {
+  color: white;
+  font-weight: bold;
+}
+.header__menu {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns: 20% 20% 1fr;
+}
+.header__menu--button, .header__newsletter--text__button {
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #3F3F37;
+  color: white;
+  margin: 0 auto;
+}
+.header__menu--list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: #D1EEF4;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 10px;
+}
+.header__menu--list__item {
+  border-left: 1px solid black;
+  padding-left: 8px;
+  padding: 15px;
+}
+.header__menu--list__item:first-child {
+  border: 0;
+}
+.header__newsletter {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin-top: 10px;
+}
+.header__newsletter--text__button {
+  width: 40%;
+  height: 60px;
+  font-size: 1.5em;
+  background-color: #E95C41;
+}
+
+.main {
+  background-image: url(./vendor/noisepattern.png);
+}
+.main__section {
+  background-color: #F0F0F0;
+  padding: 0 5%;
+}
+
+/*# sourceMappingURL=styles.css.map */

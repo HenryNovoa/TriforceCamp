@@ -1,0 +1,66 @@
+//variables
+$HEADER_BACKGROUND-COLOR : #46BDD5
+$LOGIN_COLOR: white
+$BUTTON_MAIN: #3F3F37
+$BUTTON_DANGER: #E95C41
+$NAVBAR_MENU: #D1EEF4
+$SECTION_BACKGROUND: #F0F0F0
+
+
+//body
+body
+    background-color: black         
+//header
+.header
+    background-color: $HEADER_BACKGROUND-COLOR
+    &__login
+        margin: 0px 5%
+        display: flex
+        justify-content: flex-end
+        p
+            color: $LOGIN_COLOR
+            font-weight: bold
+    &__menu
+         margin: 0px 5%
+         display: grid
+         grid-template-columns: 20% 20% 1fr
+         &--button
+             height: 50px
+             width: 80%
+             border-radius: 10px
+             background-color: #3F3F37
+             color: $LOGIN_COLOR
+             margin: 0 auto
+
+         &--list
+             list-style-type: none
+             padding-left: 0    
+             display: flex
+             justify-content: space-around
+             font-weight: bold
+             background-color: $NAVBAR_MENU
+             padding: 0px
+             margin: 0px
+             border-radius: 10px
+             &__item
+                border-left: 1px solid black
+                padding-left: 8px
+                padding: 15px
+             &__item:first-child   
+                border: 0          
+    &__newsletter
+         margin: 0px 5%
+         display: grid
+         grid-template-columns: 45% 55%
+         margin-top: 10px
+         &--text__button
+            @extend .header__menu--button
+            width: 40%
+            height: 60px
+            font-size: 1.5em
+            background-color: $BUTTON_DANGER
+.main
+     background-image: url(./vendor/noisepattern.png) 
+     &__section
+         background-color: $SECTION_BACKGROUND 
+         padding: 0 5%
